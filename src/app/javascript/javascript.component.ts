@@ -1,11 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-javascript',
+  templateUrl: './javascript.component.html',
+  styleUrls: ['./javascript.component.css']
 })
-export class AppComponent {
+export class JavascriptComponent {
+
   title = 'app works!';
   public arr = [1, 2, 7, 'hemu', 'sai', 'ravi', 34, 56, 78, 90];
   public arr1;
@@ -72,6 +73,5 @@ export class AppComponent {
    let item1 = this.arr.filter(x => x === 'ravi' || x === 'sai');
    console.log(item1)
   }
-
 
 }

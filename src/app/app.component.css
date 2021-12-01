@@ -1,11 +1,16 @@
 
-.header{
-    background:  0% 0% no-repeat padding-box;
+.whole-section{
+background-image: url('assets/images/Group 16305.png');
 opacity: 1;
 }
 
-
-
+.main-section{
+    background-image: url('assets/images/Rectangle_585.svg');
+    height: 777px;
+}
+.logo{
+    margin-left:18px;
+}
 .main{
     margin-top:-47px;
 }
@@ -20,6 +25,8 @@ color: #FFFFFF;
 text-transform: capitalize;
 opacity: 1;
 margin-left:315px;
+margin-top: 47px;
+padding-top: 26px;
 }
 
 .sub2 {
@@ -30,6 +37,7 @@ font: normal normal normal 16px/22px Nunito;
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 0.8;
+margin-left:200px;
 }
 
 .container {
@@ -40,7 +48,7 @@ opacity: 0.8;
     border: 1px solid #C9C9C9;
     border-radius: 3px;
     opacity: 1;
-    margin-left:36px;
+    margin-left:144px;
 }
 .center {
     color: var(--unnamed-color-183152);
@@ -62,6 +70,7 @@ margin-left:350px;
 opacity: 1;
 margin-left: 10px;
 margin-top: 15px;
+position: absolute;
 }
 .section{
     opacity: 1;
@@ -94,6 +103,8 @@ margin-top: 15px;
     opacity: 1;
     float:right;
     margin-right: 14px;
+    margin-left:113px;
+    position: absolute;
   }
 
   .foot1{
@@ -119,5 +130,73 @@ margin-top: 15px;
     letter-spacing: 0.08px;
     color: #FFFFFF;
     opacity: 1;
-opacity: 1;
+  }
+
+  .symbol{
+      background-color:white;
+      color:black;
+  }
+
+  @media screen and (max-width: 800px) {
+    li{
+      width: 68%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    .sub1,.sub2,.main{
+        margin: 0;
+    }
+    .container{
+        height:1050px;
+        width: 235%;
+        float: left;
+        margin: 0;
+    }
+
+
+    .item {
+        margin: 0px;
+        float:left;
+    }
+
+    .group{
+        margin-left:43px;
+    }
+ 
+    .groupImage{
+        width:234px;
+        margin:0px;
+    }
+    .center{
+        text-align: left;
+    }
+
+    .image {
+        float:right;
+        margin-right: 27px;
+    }
+
+    li p{
+        float: left;
+        margin-left: 177px;
+      }
+
+      .sub1{
+          width:482px;
+      }
+      .sub2 {
+        margin: 0;
+        width: 100%;
+      }
+      ul{
+          width:80%
+      }
+      li{
+          width:49%;
+      }
+
+      .item {
+        margin: 0px;
+        float: left;
+        position: absolute;
+        margin-top: 811px;
+      }
   }
