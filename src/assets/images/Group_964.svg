@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="312" height="120" viewBox="0 0 312 120">
+  <defs>
+    <filter id="Rectangle_578" x="0" y="0" width="312" height="120" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_964" data-name="Group 964" transform="translate(-50 -628)">
+    <g transform="matrix(1, 0, 0, 1, 50, 628)" filter="url(#Rectangle_578)">
+      <g id="Rectangle_578-2" data-name="Rectangle 578" transform="translate(4 6)" fill="#fff" stroke="#d5d1d1" stroke-width="1">
+        <rect width="294" height="102" rx="3" stroke="none"/>
+        <rect x="0.5" y="0.5" width="293" height="101" rx="2.5" fill="none"/>
+      </g>
+    </g>
+    <text id="UNITED_KINGDOM" data-name="UNITED
+KINGDOM" transform="translate(196 679)" fill="#183152" font-size="19" font-family="Nunito-SemiBold, Nunito" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">UNITED</tspan><tspan x="0" y="24">KINGDOM</tspan></text>
+    <g id="gb" transform="translate(73.626 653.626)">
+      <path id="Path_172" data-name="Path 172" d="M0,0H83.476V62.607H0Z" fill="#012169" stroke="#707070" stroke-width="0.278"/>
+      <path id="Path_173" data-name="Path 173" d="M9.782,0,41.607,23.608,73.3,0H83.476V8.087l-31.3,23.347,31.3,23.217v7.956H73.041L41.738,39.26,10.565,62.607H0V54.781L31.173,31.564,0,8.348V0Z" fill="#fff" stroke="#707070" stroke-width="0.278"/>
+      <path id="Path_174" data-name="Path 174" d="M55.3,36.651,83.476,57.39v5.217L48.129,36.651Zm-24,2.609.783,4.565L7.043,62.607H0ZM83.476,0V.391L51,24.912l.261-5.739L76.954,0ZM0,0,31.173,22.956H23.347L0,5.478Z" fill="#c8102e" stroke="#707070" stroke-width="0.278"/>
+      <path id="Path_175" data-name="Path 175" d="M31.434,0V62.607H52.3V0ZM0,20.869V41.738H83.476V20.869Z" fill="#fff" stroke="#707070" stroke-width="0.278"/>
+      <path id="Path_176" data-name="Path 176" d="M0,25.173V37.695H83.476V25.173ZM35.608,0V62.607H48.129V0Z" fill="#c8102e" stroke="#707070" stroke-width="0.278"/>
+    </g>
+  </g>
+</svg>

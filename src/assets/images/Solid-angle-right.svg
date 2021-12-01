@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9.941" height="6.416" viewBox="0 0 9.941 6.416">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Mask" d="M6.2,5.5,1.974,9.722a.742.742,0,0,1-1.053,0l-.7-.7a.742.742,0,0,1,0-1.053L3.213,4.974.219,1.98a.742.742,0,0,1,0-1.053l.7-.708a.742.742,0,0,1,1.053,0L6.194,4.443A.743.743,0,0,1,6.2,5.5Z" fill="#01498e"/>
+    </clipPath>
+  </defs>
+  <g id="Solid_angle-right" data-name="Solid/angle-right" transform="translate(9.941) rotate(90)">
+    <path id="Mask-2" data-name="Mask" d="M6.2,5.5,1.974,9.722a.742.742,0,0,1-1.053,0l-.7-.7a.742.742,0,0,1,0-1.053L3.213,4.974.219,1.98a.742.742,0,0,1,0-1.053l.7-.708a.742.742,0,0,1,1.053,0L6.194,4.443A.743.743,0,0,1,6.2,5.5Z" transform="translate(0 0)" fill="#01498e"/>
+    <g id="Solid_angle-right-2" data-name="Solid/angle-right" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <rect id="Color" width="10" height="10" transform="translate(-1.793 -0.03)" fill="#01498e"/>
+    </g>
+  </g>
+</svg>

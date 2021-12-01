@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="344" height="58" viewBox="0 0 344 58">
+  <defs>
+    <filter id="Background" x="0" y="0" width="344" height="58" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <path id="Mask" d="M6.2,5.5,1.974,9.722a.742.742,0,0,1-1.053,0l-.7-.7a.742.742,0,0,1,0-1.053L3.213,4.974.219,1.98a.742.742,0,0,1,0-1.053l.7-.708a.742.742,0,0,1,1.053,0L6.194,4.443A.743.743,0,0,1,6.2,5.5Z" fill="#01498e"/>
+    </clipPath>
+  </defs>
+  <g id="Group_961" data-name="Group 961" transform="translate(1.066 6)">
+    <g id="Buttons_and_links_Link-button_Primary-icon" data-name="Buttons and links/Link-button/Primary-icon" transform="translate(-0.066)">
+      <g transform="matrix(1, 0, 0, 1, -1, -6)" filter="url(#Background)">
+        <g id="Background-2" data-name="Background" transform="translate(1 6)" fill="none" stroke="#01498e" stroke-width="1">
+          <rect width="326" height="40" rx="3" stroke="none"/>
+          <rect x="0.5" y="0.5" width="325" height="39" rx="2.5" fill="none"/>
+        </g>
+      </g>
+      <g id="Solid_angle-right" data-name="Solid/angle-right" transform="translate(305.606 16.763) rotate(90)">
+        <path id="Mask-2" data-name="Mask" d="M6.2,5.5,1.974,9.722a.742.742,0,0,1-1.053,0l-.7-.7a.742.742,0,0,1,0-1.053L3.213,4.974.219,1.98a.742.742,0,0,1,0-1.053l.7-.708a.742.742,0,0,1,1.053,0L6.194,4.443A.743.743,0,0,1,6.2,5.5Z" transform="translate(0 0)" fill="#01498e"/>
+        <g id="Solid_angle-right-2" data-name="Solid/angle-right" transform="translate(0 0)" clip-path="url(#clip-path)">
+          <rect id="Color" width="10" height="10" transform="translate(-1.793 -0.03)" fill="#01498e"/>
+        </g>
+      </g>
+    </g>
+    <text id="EUROPE" transform="translate(19.934 26)" fill="#01498e" font-size="18" font-family="Nunito-Bold, Nunito" font-weight="700" letter-spacing="0.01em"><tspan x="0" y="0">EUROPE</tspan></text>
+  </g>
+</svg>
