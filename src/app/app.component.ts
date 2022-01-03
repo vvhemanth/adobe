@@ -11,6 +11,10 @@ export class AppComponent {
   public arr1;
   public object = {data:'hemu',data1:'raja'};
   public object1;
+
+  
+
+  
   constructor() {
     console.log(this.title)
   }
@@ -70,8 +74,13 @@ export class AppComponent {
    console.log(this.arr);
 
    let item1 = this.arr.filter(x => x === 'ravi' || x === 'sai');
-   console.log(item1)
+   console.log(item1);
+  //  how to cponvert array to object
+
+ 
   }
+
+ 
 
 
 }

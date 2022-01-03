@@ -1,202 +1,259 @@
 
 .whole-section{
-background-image: url('assets/images/Group 16305.png');
-opacity: 1;
-}
-
-.main-section{
-    background-image: url('assets/images/Rectangle_585.svg');
-    height: 777px;
-}
-.logo{
-    margin-left:18px;
-}
-.main{
-    margin-top:-47px;
-}
-
-.sub1 {
-width: 499px;
-height: 54px;
-text-align: center;
-font: normal normal 800 40px/54px Nunito;
-letter-spacing: 0px;
-color: #FFFFFF;
-text-transform: capitalize;
-opacity: 1;
-margin-left:315px;
-margin-top: 47px;
-padding-top: 26px;
-}
-
-.sub2 {
-width: 928px;
-height: 143px;
-text-align: center;
-font: normal normal normal 16px/22px Nunito;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 0.8;
-margin-left:200px;
-}
-
-.container {
-    width: 1022px;
-    height: 458px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    box-shadow: 0px 3px 10px #00000033;
-    border: 1px solid #C9C9C9;
-    border-radius: 3px;
-    opacity: 1;
-    margin-left:144px;
-}
-.center {
-    color: var(--unnamed-color-183152);
-text-align: center;
-font: normal normal 800 24px/32px Nunito;
-letter-spacing: 0px;
-color: #183152;
-text-transform: capitalize;
-opacity: 1;
-}
-.groupImage {
-width: 326px;
-height: 40px;
-opacity: 1;
-margin-left:350px;
-}
-
-.image {
-opacity: 1;
-margin-left: 10px;
-margin-top: 15px;
-position: absolute;
-}
-.section{
-    opacity: 1;
-}
-
- ul{
-    opacity: 1;
-    list-style: none;
-    background: transparent url('assets/images/Group_964.svg') 0% 0% no-repeat padding-box;
+  /* // background-image: url('assets/images/Group 16305.png'); */
+  opacity: 1;
   }
-   li{
-    width: 294px;
-    height: 102px;
-    display: inline;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    box-shadow: 5px 3px 6px #00000029;
-    border: 1px solid #D5D1D1;
-    border-radius: 3px;
-    opacity: 1;
-    float:left;
-    margin-right: 24px;
-    margin-bottom: 24px;
+  
+  .main-section{
+      background-image: url('assets/images/Group 16305.png');
+      height: 950px;
+      padding:1px;
   }
-  li p{
-    color: var(--unnamed-color-183152);
-    text-align: left;
-    font: normal normal bold 19px/24px Nunito;
-    letter-spacing: 0.38px;
-    color: #183152;
-    opacity: 1;
-    float:right;
-    margin-right: 14px;
-    margin-left:113px;
-    position: absolute;
+  .logo{
+      margin-left:18px;
+  }
+  .main{
+      display: inline;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .header{
+    background-image: linear-gradient(to right,#141E40, #5591AC,#556283);
+  }
+  
+  .sub1 {
+  text-align: center;
+  font: normal normal 800 40px/54px Nunito;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  opacity: 1;
+  }
+  
+  .sub2 {
+  width: 928px;
+  height: 143px;
+  text-align: center;
+  font: normal normal normal 16px/22px Nunito;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 0.8;
+  margin-left:200px;
+  }
+  
+  .dropdown {
+    color: darkblue;
+      border: 1px solid #183152;;
+      width: 308px;
+      padding: 7px;
+  }
+  .dropdown:hover {
+    border:1px solid blue;
   }
 
-  .foot1{
-    text-align: left;
-    font: normal normal normal 14px/25px Nunito;
-    letter-spacing: 0.07px;
-    color: #FFFFFF;
+  .main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+      width: 1022px;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      box-shadow: 0px 3px 10px #00000033;
+      border: 1px solid #C9C9C9;
+      border-radius: 3px;
+      opacity: 1;
+  }
+  .center {
+      color: var(--unnamed-color-183152);
+  text-align: center;
+  font: normal normal 800 24px/32px Nunito;
+  letter-spacing: 0px;
+  color: #183152;
+  text-transform: capitalize;
+  opacity: 1;
+  }
+  .groupImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
     opacity: 1;
-    margin-top: -23px;
+    padding: 17px;
+    position: relative;
+    width: 25%;
+    height: 65px;
   }
-
-  .item {
-    text-align: left;
-    font: normal normal normal 16px/22px Nunito;
-    letter-spacing: 0px;
-    opacity: 1;
-    margin-left: 40px;
+  .section{
+      opacity: 1;
   }
-
-  .footer{
-    text-align: left;
-    font: normal normal bold 16px/38px Nunito;
-    letter-spacing: 0.08px;
-    color: #FFFFFF;
-    opacity: 1;
-  }
-
-  .symbol{
-      background-color:white;
-      color:black;
-  }
-
-  @media screen and (max-width: 800px) {
-    li{
-      width: 68%; /* The width is 100%, when the viewport is 800px or smaller */
+  
+   ul{
+      opacity: 1;
+      list-style: none;
+      background: transparent url('assets/images/Group_964.svg') 0% 0% no-repeat padding-box;
     }
-    .sub1,.sub2,.main{
-        margin: 0;
+     li{
+      width: 30%;
+      height: 102px;
+      display: inline;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      box-shadow: 5px 3px 6px #00000029;
+      border: 1px solid #D5D1D1;
+      border-radius: 3px;
+      opacity: 1;
+      float:left;
+      margin-right: 24px;
+      margin-bottom: 24px;
     }
-    .container{
-        height:1050px;
-        width: 235%;
-        float: left;
-        margin: 0;
-    }
-
-
-    .item {
-        margin: 0px;
-        float:left;
-    }
-
-    .group{
-        margin-left:43px;
-    }
- 
-    .groupImage{
-        width:234px;
-        margin:0px;
-    }
-    .center{
-        text-align: left;
-    }
-
-    .image {
-        float:right;
-        margin-right: 27px;
-    }
-
     li p{
-        float: left;
-        margin-left: 177px;
+      color: var(--unnamed-color-183152);
+      font: normal normal bold 19px/24px Nunito;
+      letter-spacing: 0.38px;
+      color: #183152;
+      opacity: 1;
+      position: absolute;
+    width: 13%;
+    display: inline;
+    padding-top: 9px;
+    }
+  
+    .foot1{
+      text-align: left;
+      font: normal normal normal 14px/25px Nunito;
+      letter-spacing: 0.07px;
+      color: #FFFFFF;
+      opacity: 1;
+      margin-top: -23px;
+    }
+  
+    .item {
+      text-align: left;
+      font: normal normal normal 16px/22px Nunito;
+      letter-spacing: 0px;
+      opacity: 1;
+      margin-left: 40px;
+    }
+  
+    .footer{
+      text-align: left;
+      font: normal normal bold 16px/38px Nunito;
+      letter-spacing: 0.08px;
+      color: #FFFFFF;
+      opacity: 1;
+      background-image: linear-gradient(to right,#141E40, #5591AC,#556283);
+      padding-top:1px;
+      height:216px;
+    }
+  
+    .symbol{
+        background-color:white;
+        color:black;
+    }
+    .foot {
+      padding-left:33px;
+    }
+  
+    .foot-item {
+      width:15px;
+    }
+    .foot-sub {
+    }
+  
+    .foot-sub:hover{
+      border:1px solid blue;
+      width:270px;
+      font-size: 16px;
+    }
+  
+    @media screen and (max-width: 800px)  {
+      .logo{
+        margin:0px;
       }
-
-      .sub1{
-          width:482px;
-      }
-      .sub2 {
-        margin: 0;
-        width: 100%;
-      }
-      ul{
-          width:80%
+      .container{
+        height:1054px;
       }
       li{
-          width:49%;
+        width: 68%; /* The width is 100%, when the viewport is 800px or smaller */
+      }
+      .sub1,.sub2{
+          margin: 0px;
+      }
+  
+      .item {
+          margin: 0px;
+      }
+        li p{
+          padding-left:73px;
+        }
+      .group{
+          margin-left:43px;
+      }
+   
+      .groupImage{
+          width:234px;
+          margin:0px;
+      }
+      .center{
+          text-align: left;
+      }
+  
+      .image {
+          float:right;
+          position: relative;
+          padding-right: 27px;
+          width:25%;
+      }
+  
+
+        .sub2 {
+          margin: 0;
+          width: 100%;
+          height:220px;
+        }
+        ul{
+            width:100%
+        }
+        li{
+            width:49%;
+        }
+  
+        .item {
+          margin: 0px;
+          float: left;
+        }
+  
+        .footer{
+        position: absolute;
+      height: 200px;
+      max-width: 98%;
+        }
+        .main-section{
+          height:1311px;
+        }
+  
+        .item {
+          padding-left:20px;
+        }
+    }
+
+    @media screen and (max-width: 500px)  {
+      .main{
+        height:300px;
       }
 
-      .item {
-        margin: 0px;
-        float: left;
-        position: absolute;
-        margin-top: 811px;
+      li p{
+        padding:7px;
       }
-  }
+      .image {
+        padding-right:14px;
+      }
+
+      .main-section {
+        height:1395px;
+      }
+    }

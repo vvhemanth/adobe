@@ -1,0 +1,225 @@
+.main-container{
+    background-image: url('assets/img/Group_1.png');
+    height: 950px;
+    width:100%;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 88%;
+    height: 700px;
+    margin-left: 7%;
+}
+.heading {
+    text-align:center;
+    padding-top:20px;
+    font: normal normal bold 36px/49px Nunito;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.account-heading {
+    text-align: center;
+    font: normal normal 800 30px/41px Nunito;
+    letter-spacing: 0px;
+    color: #183152;
+    opacity: 1;
+    padding-top:20px;
+}
+
+
+ul{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+    border: 1px solid lightblue;
+    width: 94%;
+    /* padding-left: 20%; */
+    margin-left: 3%;
+    height:70px;
+    max-width:91%;
+}
+
+li{
+    width:23%;
+    padding-right:16px;
+}
+
+li::before {
+    content: "•";
+    /* padding-right: 8px; */
+    border: 1px solid white;
+    border-radius: 19px;
+    padding: 3px;
+    background: white;
+    /* height: 42px; */
+    font-size: 10px;
+  }
+  input{
+    border: 1px solid #707070;
+  }
+.input1{
+    background: #E8F2FB 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    opacity: 1;
+    width: 90%;
+    height: 30px;
+}
+
+.sample-text {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 3px;
+    opacity: 1;
+    width: 90%;
+    height: 32px;
+}
+
+.structure{
+    padding-left:20px;
+}
+
+
+.plain-text1 {
+    height: 30px;
+    display: flex;
+    float:left;
+    padding-top:10px;
+    width:78%;
+}
+
+label{
+font: normal normal normal 16px/22px Nunito;
+letter-spacing: 0px;
+color: #000000;
+
+}
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-group{
+    margin-bottom: 15px;
+    position: relative;
+    width:50%;
+}
+.form-group1{
+    margin-bottom: 15px;
+    position: relative;
+    width:100%;
+}
+.form-group label,.form-group1 label {
+    display: block;
+    margin-bottom: 5px;
+    margin-bottom: -11px;
+    margin-top: 9px;
+}
+.footer{
+    margin-top:20px;
+    float:right;
+    width:50%;
+}
+.password-length {
+width:65%;
+height:10px;
+background: #2D8E4D 0% 0% no-repeat padding-box;
+border-radius: 3px;
+opacity: 1;
+margin-top: 62px;
+}
+
+.login{
+    width: 40%;
+    height: 38px;
+    margin-right:18px;
+    background: blue;
+    color: white;
+}
+.login:hover{
+    background-color:white;
+    color:blue
+}
+
+
+.icon {
+    font: normal normal 800 10px/14px Nunito;
+    letter-spacing: 0px;
+    color: #01498E;
+    opacity: 1;
+    font-size: 16px;
+    border: 1px solid lightblue;
+    border-radius: 36px;
+    padding: 3px;
+}
+
+
+
+
+@media screen and (max-width: 800px)  {
+    ul {   
+        height:170px;
+        width:86%;
+    }
+    .form-group {
+        width:100%;
+    }
+    .main-container{
+        height: 1250px;
+    }
+    input,.plain-text1{
+        width:90%;
+        margin-left: -1px;
+    }
+    .container{
+        height:890px;
+    }
+    .login{
+        width:40%;
+    }
+    .footer{
+        float:left;
+        width:100%;
+    }
+
+}
+@media screen and (max-width: 500px)  {
+ 
+ul {   
+    height:234px;
+}
+
+.main-container{
+    height: 1340px;
+}
+.login{
+    height:52px;
+    width:38%;
+}
+
+@media screen and (max-width: 376px)  {
+    .container{
+        height:940px;
+    }
+    .main-container{
+        height: 1400px;
+    }
+    .login{
+        width:41%;
+    }
+    
+}
+
+
+
+
+
+}
